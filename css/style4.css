@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.therapist-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.therapist {
+    text-align: center;
+}
+
+.therapist ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact, #reviews {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, textarea, button {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    align-self: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
